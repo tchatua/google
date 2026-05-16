@@ -12,42 +12,41 @@
 To install and initialize the Google Cloud CLI.
 After initialization, run a few core gcloud CLI commands to view information about your installation and verify it was successful.
 
-
 - [Click here to download gcloud CLI version 568.0.0](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe)
 
 1. Double click on it and follow this simple steps
 2. Click on Next > I agree > All users > Next > Install > Next > Finish
 
-![alt text](image.png)
+![alt text](images/image.png)
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
-![alt text](image-5.png)
-![alt text](image-6.png)
+![alt text](images/image-5.png)
+![alt text](images/image-6.png)
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
-![alt text](image-11.png)
+![alt text](images/image-11.png)
 
-![alt text](image-12.png)
+![alt text](images/image-12.png)
 
-![alt text](image-13.png)
+![alt text](images/image-13.png)
 
-![alt text](image-14.png)
+![alt text](images/image-14.png)
 
-![alt text](image-15.png)
+![alt text](images/image-15.png)
 
 ```t
 Your browser has been opened to visit:
@@ -95,15 +94,15 @@ Some things to try next:
 C:\Program Files (x86)\Google\Cloud SDK>
 ```
 
-![alt text](image-16.png)
+![alt text](images/image-16.png)
 
-![alt text](image-17.png)
+![alt text](images/image-17.png)
 
-![alt text](image-18.png)
+![alt text](images/image-18.png)
 
-![alt text](image-19.png)
+![alt text](images/image-19.png)
 
-![alt text](image-20.png)
+![alt text](images/image-20.png)
 
 ```t
 $ gcloud auth list
@@ -114,7 +113,6 @@ ACTIVE  ACCOUNT
 To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
-
 
 ```t
 $ gcloud info
@@ -175,15 +173,15 @@ default  True       tchattua@gmail.com  a01-terraform-project
 
 - To allow Terraform CLI to communicate with GCP
 
-![alt text](image-21.png)
+![alt text](images/images/image-21.png)
 
-![alt text](image-22.png)
+![alt text](images/image-22.png)
 
-![alt text](image-23.png)
+![alt text](images/image-23.png)
 
-![alt text](image-24.png)
+![alt text](images/image-24.png)
 
-![alt text](image-25.png)
+![alt text](images/image-25.png)
 
 ## Install Terraform CLI
 
@@ -194,6 +192,7 @@ choco install terraform
 ```
 
 Or [Click here to download Terraform Binary matching with your Windows OS](https://developer.hashicorp.com/terraform/install#windows)
+
 - Unzip the package
 - Create new folder terraform
 - Copy the terraform.exe to a terraform
@@ -209,6 +208,7 @@ is 1.15.3. You can update by downloading from https://developer.hashicorp.com/te
 ```
 
 - I just download the new terraform.exe file and replace the existing one in my laptop
+
 ```t
 $ terraform version
 Terraform v1.15.3
@@ -218,8 +218,8 @@ on windows_386
 ## Install VS Code Editor
 
 Click here to [Download Visual Studio Code for Windows 10, 11](https://code.visualstudio.com/download)
-![alt text](image-26.png)
+![alt text](images/image-26.png)
 
 ## Install Terrafform plugin fo VS Code
 
-![alt text](image-27.png)
+![alt text](images/image-27.png)
