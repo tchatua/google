@@ -1,0 +1,66 @@
+# -------------------------------------------------------------------
+# TERRAFORM STATE & PLAN FILES
+# -------------------------------------------------------------------
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Terraform lock file (optional to commit; many teams ignore it)
+.terraform.lock.hcl
+
+# Terraform working directory
+.terraform/
+.terraform/*
+
+# -------------------------------------------------------------------
+# SENSITIVE FILES (NEVER COMMIT)
+# -------------------------------------------------------------------
+# GCP service account keys
+*.json
+*.p12
+
+# Private SSH keys
+*.pem
+*.key
+*.pub
+
+# Terraform variable files (contain secrets)
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Environment variable files
+*.env
+
+# -------------------------------------------------------------------
+# OS / EDITOR / TOOLING FILES
+# -------------------------------------------------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+
+# Logs
+*.log
+
+# Python virtual env (if using helper scripts)
+venv/
+.env/
+
+# -------------------------------------------------------------------
+# CUSTOM PROJECT FILES (OPTIONAL)
+# -------------------------------------------------------------------
+# Local scripts or temp files
+scripts/local/*
+tmp/
