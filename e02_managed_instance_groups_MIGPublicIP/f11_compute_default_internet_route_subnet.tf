@@ -1,3 +1,5 @@
+
+# Regional Proxy-only subnet
 resource "google_compute_route" "default_internet" {
   name             = "${local.name}-app1-default-internet-route"
   network          = google_compute_network.vpc.id
